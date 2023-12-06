@@ -1,0 +1,231 @@
+#linkedin-section {
+    display: flex;
+    flex-direction: column;
+    /* background-color: bisque; */
+    padding-block: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+
+#li-dp-main {
+    background-image: url("images/linkedin_dp.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    width: 9em;
+    height: 9em;
+    top: -5em;
+    border: 0.15em solid white;
+    position: absolute;
+    margin-left: 1.1em;
+    box-shadow: 0 0 1em 0 rgb(72, 70, 70);
+}
+
+#li-follow-btn {
+    background-color: #0a66c2;
+    color: white;
+    width: 8em;
+    margin-left: 0.8em;
+    margin-top: 1.5em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 500rem;
+    font-size: 1.1em;
+    height: 3em;
+    font-family: 'Akatab', sans-serif;
+    border: none;
+    margin-left: 1.45em;
+}
+
+#li-follow-btn:hover {
+    background-color: #004182
+}
+ 
+#li-follow-btn:active {
+    background-color: #004182
+}
+
+#li-connections-number {
+    margin-right: -1.2em;
+}
+
+#li-followers-number {
+    margin-right: -1.2em;
+}
+
+#li-name {
+    margin-left: 0em;
+    padding-left: 1em;
+    font-size: 1.5em;
+    font-family: 'Mukta', sans-serif;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 0em;
+    height: 0.8em;
+    display: flex;
+    align-items: center;
+}
+
+#pronouns {
+    color: #696d72;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 0.7em;
+}
+
+#li-banner-image {
+    background-image: url('images/ss.png');
+    background-size: cover;
+    width: 100%;
+    /* position: absolute;
+    bottom: 60%; */
+    height: 8em;
+    max-width: 45em;
+    border-radius: 1em 1em 0 0;
+    box-shadow: 0.5em 0.7500em 1.0000em 0 rgba(0, 0, 0, 0.25),
+   -0.5em -0.5em 0.75em 0 rgba(255, 255, 255, 0.3);
+
+}
+
+#li-details {
+    background-color: white;
+    /* position: absolute; */
+    position: relative;
+    width: 100%;
+    max-width: 45em;
+    padding-bottom: 2em;
+    padding-top: 6em;
+    border-radius: 0 0 1em 1em;
+    /* top: 40%; */
+    box-shadow: 0.5em 0.75em 1.0000em 0 rgba(0, 0, 0, 0.25),
+   -0.5em -0.5em 0.75em 0 rgba(255, 255, 255, 0.3);
+
+}
+
+.li-text-in-main {
+    color: black;
+    margin-left: 0em;
+    padding-left: 0em;
+    padding-top: 0em;
+    font-size: 0.7em;
+}
+
+#li-location {
+    color: #696d72;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1em;
+    margin-top: 0em;
+    padding-top: 0.7em;
+    padding-left: 1.6em;
+    margin-left: 0em;
+
+}
+
+#li-follow {
+    color: #696d72;
+    display: flex;
+    width: 7.2em;
+    justify-content: space-between;
+    font-family: 'Akatab', sans-serif;
+    font-size: 1em;
+    margin-left: 0em;
+    padding-left: 1.55em;
+    padding-top: 0.1em;
+
+}
+
+#li-bio {
+    margin-top: 0;
+    padding-top: 0.15em;
+    padding-left: 1.27em;
+    margin-left: 0em;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.2em;
+    height: 1.2em;
+}
+
+
+@media (max-width: 600px) {
+    #li-name {
+        margin-left: 0em;
+        padding-left: 1em;
+        font-size: 1.5em;
+        font-family: 'Mukta', sans-serif;
+        padding-bottom: 0;
+        padding-top: 0;
+        margin-bottom: 0em;
+        height: 0.8em;
+
+    }
+
+    #pronouns{
+
+        position: absolute;
+        visibility: hidden;
+       }
+
+    #li-location {
+        position: relative;
+        visibility: hidden;       
+    }
+
+    #li-location::after {
+        color: #696d72;
+        font-family: 'Source Sans 3', sans-serif;
+        font-size: 1em;
+        margin-top: 0em;
+        padding-top: 0.7em;
+        padding-left: 1.6em;
+        margin-left: 0em;
+        position: absolute;
+        visibility: visible;
+        content: "Vancouver, CA";
+        left: 0;
+        top: 0;
+
+    }
+    
+    #li-bio {
+        margin-top: 0;
+        padding-top: 0.15em;
+        padding-left: 1.27em;
+        margin-left: 0em;
+        font-family: 'Source Sans 3', sans-serif;
+        font-size: 1.2em;
+        height: 1.2em;
+    }
+}
+
+@media (max-width: 405px) {
+
+    #li-follow {
+        color: #696d72;
+        display: flex;
+        width: 7.2em;
+        justify-content: space-between;
+        font-family: 'Akatab', sans-serif;
+        font-size: 1em;
+        margin-left: 0em;
+        padding-left: 1.55em;
+        padding-top: 0em;
+        position: absolute;
+        bottom: 6.45em;
+    }
+
+    #li-follow-btn {
+        background-color: #0a66c2;
+        color: white;
+        width: 8em;
+        margin-left: 0.8em;
+        margin-top: 2.65em;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        border-radius: 500rem;
+        font-size: 1.1em;
+        height: 3em;
+        font-family: 'Akatab', sans-serif;
+        border: none;
+        margin-left: 1.45em;
+        padding: 1em;
+    }
+}

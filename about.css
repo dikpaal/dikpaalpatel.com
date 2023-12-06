@@ -1,0 +1,156 @@
+#about-me-section {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 15em;
+    padding-bottom: 10em;
+    margin-top: 2.5em;
+    margin-bottom: 5em;
+    /* background-color: red; */
+}
+
+#about-me-name {
+    /* position: absolute;
+    bottom: 65%; */
+    font-size: 3.5em;
+}
+
+#about-me-flair {
+    /* position: absolute;
+    bottom: 59.5%; */
+    font-size: 2.2em;
+    color: gray;
+}
+
+#about-me-text {
+    /* position: absolute;
+    top: 44%; */
+    max-width: 45em;
+    margin-top: 1em;
+    width: 85%;
+    font-size: 0.9em;
+    line-height: 1.7em;
+}
+
+#say-hi-tag {
+    color: black;
+    text-decoration: none;
+}
+
+#say-hi {
+    background-color: rgb(247, 230, 209);
+    position: absolute;
+    top: 3%;
+    right: 0;
+    padding: 1.5em;
+    width: 8em;
+    border-right-color: white;
+    border: none;
+    border-radius: 1em;
+     box-shadow: 0.5000em 0.7500em 1.000em 0 rgba(0, 0, 0, 0.25),
+     -0.5em -0.5em 0.75em 0 rgba(255, 255, 255, 0.3);
+    font-family: 'Roboto Mono', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+#say-hi:hover {
+    background-color: rgb(245, 220, 190);
+}
+
+#say-hi:active {
+    background-color: rgb(251, 217, 175);
+}
+
+@media screen and (max-width: 620px) {
+
+    #about-me-name {
+        /* position: absolute;
+        bottom: 66%; */
+        font-size: 2.5em;
+    }
+
+    #about-me-flair {
+        /* position: absolute;
+        bottom: 60%; */
+        font-size: 1.5em;
+        color: gray;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    #about-me-name {
+        /* position: absolute;
+        bottom: 66%; */
+        font-size: 1.5em;
+    }
+
+    #about-me-flair {
+        /* position: absolute;
+        bottom: 62.5%; */
+        font-size: 1em;
+        color: gray;
+    }
+
+    #about-me-text {
+        /* position: absolute;
+        top: 41%; */
+        margin-top: 1em;
+        width: 85%;
+        font-size: 1.1em;
+        line-height: 1.5em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    #about-me-name {
+        /* position: absolute;
+        bottom: 66%; */
+        font-size: 1.5em;
+    }
+
+    #about-me-flair {
+        /* position: absolute;
+        bottom: 62.5%; */
+        font-size: 1em;
+        color: gray;
+    }
+
+    #about-me-text {
+        /* position: absolute;
+        top: 41%; */
+        margin-top: 1em;
+        width: 85%;
+        font-size: 1.1em;
+        line-height: 1.5em;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    #about-me-name {
+        /* position: absolute;
+        bottom: 66%; */
+        font-size: 1.5em;
+    }
+
+    #about-me-flair {
+        /* position: absolute;
+        bottom: 62.5%; */
+        font-size: 1em;
+        color: gray;
+    }
+
+    #about-me-text {
+        /* position: absolute;
+        top: 41%; */
+        margin-top: 1em;
+        width: 85%;
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+}

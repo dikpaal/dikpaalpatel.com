@@ -1,0 +1,252 @@
+#instagram-section {
+    display: flex;
+    flex-direction: column;
+    /* background-color: bisque; */
+    padding-block: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+
+#ig-dp-main {
+    background-image: url("images/instagram-dp.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    width: 7em;
+    height: 7em;
+    top: 2em;
+    position: absolute;
+    margin-left: 1.5em;
+}
+
+#ig-username {
+    position: absolute;
+    font-size: 1.1em;
+    height: 2.5em;
+    left: 9em;
+    top: 2.5em;
+    width: 8em;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: lighter;
+}
+
+
+#ig-follow-btn {
+    background-color: #efefef;
+    color: black;
+    position: absolute;
+    left: 12.3em;
+    top: 5.2em;
+    width: 9em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 0.5em;
+    font-size: 0.8em;
+    height: 2.5em;
+    font-family: 'Helvetica', sans-serif;
+    border: none;
+    font-weight: bold;
+}
+
+#ig-follow-btn:hover {
+    background-color: #d7d9db
+}
+
+
+#ig-follow-btn:active {
+    background-color: #d5d9dd
+}
+
+#ig-followers-number {
+    margin-right: -1.2em;
+}
+
+#ig-following-number {
+    margin-right: -1.2em;
+}
+
+#ig-name {
+    margin-left: 0em;
+    padding-left: 0em;
+    font-size: 2.1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+#ig-details {
+    background-color: white;
+    /* position: absolute; */
+    position: relative;
+    width: 100%;
+    max-width: 45em;
+    padding-bottom: 1em;
+    padding-top: 11.5em;
+    border-radius: 1em 1em 1em 1em;
+    /* top: 25%; */
+    /* box-shadow: 0 0 1em 0 rgb(72, 70, 70);
+     */
+     box-shadow: 0.5000em 0.7500em 1.0000em 0 rgba(0, 0, 0, 0.25),
+     -0.5em -0.5em 0.75em 0 rgba(255, 255, 255, 0.3);
+}
+
+.ig-text-in-main {
+    color: black;
+    margin-left: 0em;
+    padding-left: 1.5em;
+    padding-top: 1em;
+    font-size: 1.2em;
+}
+
+#ig-name {
+    margin-top: 0em;
+    padding-top: 0em;
+    font-size: 1.2em;
+    padding-left: 1.5em;
+    margin-left: 0em;
+    font-family: 'Helvetica', sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+#ig-follow {
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.95em;
+    font-family: 'Akatab', sans-serif;
+    padding: 0;
+    margin-left: 0em;
+    margin-right: 0;
+    width: 100%;
+
+}
+
+.ig-follow-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#ig-bio {
+    margin-top: 0em;
+    padding-top: 0.5em;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.2em;
+    font-weight: lighter;
+    margin-bottom: 1.5em;
+}
+
+#ig-posts-number {
+    font-family: 'Helvetica', sans-serif;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 0.2em;
+    justify-content: center;
+    align-items: center;
+
+}
+#ig-followers-number {
+    font-family: 'Helvetica', sans-serif;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 0.2em;
+    justify-content: center;
+    align-items: center;
+}
+#ig-following-number {
+    font-family: 'Helvetica', sans-serif;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 0.2em;
+    justify-content: center;
+    align-items: center;
+}
+
+#ig-posts-text {
+    color: #737373;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: lighter;
+}
+
+#ig-followers-text {
+    color: #737373;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: lighter;
+}
+
+#ig-following-text {
+    color: #737373;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: lighter;
+}
+
+.ig-bio-lines {
+    height: 1.2em;
+}
+
+#ig-pronouns {
+    color: #696d72;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: lighter;
+}
+
+a {
+    color: #5896bb;
+}
+
+hr {
+    color: #dbdbdb;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+@media (max-width: 412px) {
+    #ig-follow-btn {
+        background-color: #efefef;
+        position: absolute;
+        left: 14em;
+        top: 5.25em;
+        width: 6.3em;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        border-radius: 0.5em;
+        font-size: 0.7em;
+        height: 2.5em;
+        font-family: 'Helvetica', sans-serif;
+        border: none;
+        font-weight: bold;
+    }
+    #ig-username {
+        position: absolute;
+        font-size: 0.8em;
+        height: 2em;
+        left: 12.2em;
+        top: 2.5em;
+        width: 8em;
+        font-family: 'Helvetica', sans-serif;
+        font-weight: lighter;
+    }
+    #ig-name {
+        margin-top: 0em;
+        padding-top: 0em;
+        font-size: 1em;
+        padding-left: 1.1em;
+        margin-left: 0em;
+        font-family: 'Helvetica', sans-serif;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+    }
+    #ig-bio {
+        margin-top: 0em;
+        padding-top: 0.5em;
+        font-family: 'Helvetica', sans-serif;
+        font-size: 1em;
+        font-weight: lighter;
+        margin-bottom: 1.5em;
+        padding-left: 1.1em;
+    }
+}

@@ -1,0 +1,277 @@
+
+html {
+    font-family: 'Noto Sans JP', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+#twitter-section {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    align-items: center;
+
+}
+
+#twitter-block {
+    position: relative;
+    width: 60vw;
+    max-width: 45em;
+    margin: auto;
+}
+
+#dp-main {
+    background-image: url("images/new_dp.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    width: 9em;
+    height: 9em;
+    bottom: 75%;
+    border: 0.3em solid black;
+    position: absolute;
+    margin-left: 1.1em;
+}
+
+#follow-btn {
+    background-color: white;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    width: 5em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 500rem;
+    font-size: 1em;
+    height: 2.5em;
+    font-family: 'Akatab', sans-serif;
+    border: none;
+}
+
+#follow-btn:hover {
+    background-color: #e3e7eb
+}
+
+#follow-btn:active {
+    background-color: #d5d9dd
+}
+
+#followers-number {
+    margin-right: -1.2em;
+    color: white;
+}
+
+#following-number {
+    margin-right: -1.2em;
+    color: white;
+}
+
+#name {
+    margin-left: 0em;
+    padding-left: 0.8em;
+    font-size: 1.8em;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#banner-image {
+    width: 60vw;
+    position: absolute;
+    bottom: 75%;
+    height: 10em;
+    max-width: 45em;
+    margin-top: 0;
+    border-radius: 1em 1em 0 0;
+}
+
+#details {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    max-width: 45em;
+    padding-bottom: 2em;
+    padding-top: 4em;
+    border-radius: 0 0 1em 1em;
+    margin-bottom: 0;
+}
+
+.text-in-main {
+    color: white;
+    margin-left: 0em;
+    padding-left: 1.5em;
+    padding-top: 1em;
+    font-size: 1em;
+}
+
+#username {
+    color: #696d72;
+    margin-top: 0em;
+    padding-top: 0em;
+    font-size: 1em;
+    padding-left: 1.5em;
+    margin-left: 0em;
+    font-family: 'Akatab', sans-serif;
+}
+
+#joined-date {
+    color: #696d72;
+}
+
+#follow {
+    color: #696d72;
+    display: flex;
+    width: 11.5em;
+    justify-content: space-between;
+    font-size: 0.95em;
+    font-family: 'Akatab', sans-serif;
+}
+
+#bio {
+    margin-top: 0em;
+    padding-top: 1em;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+}
+
+
+/* 
+
+#linkedin-section {
+    height: 100vh;
+    background-color: red;
+}
+
+#linkedin-block {
+    position: relative;
+    top: 42vh;
+    width: 60vw;
+    max-width: 45em;
+}
+
+#li-dp-main {
+    background-image: url("images/new_dp.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    width: 9em;
+    height: 9em;
+    bottom: 75%;
+    border: 0.3em solid black;
+    position: absolute;
+    margin-left: 1.1em;
+    
+}
+
+#li-follow-btn {
+    background-color: white;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    width: 5em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 500rem;
+    font-size: 1em;
+    height: 2.5em;
+    font-family: 'Akatab', sans-serif;
+    border: none;
+}
+
+#li-follow-btn:hover {
+    background-color: #e3e7eb
+}
+
+#li-follow-btn:active {
+    background-color: #d5d9dd
+}
+
+
+#li-followers-number {
+    margin-right: -1.2em;
+    color: white;
+}
+
+#li-following-number {
+    margin-right: -1.2em;
+    color: white;
+}
+
+#li-name {
+    margin-left: 0em;
+    padding-left: 0.8em;
+    font-size: 1.8em;
+    font-family: 'Roboto', sans-serif;
+}
+
+#li-banner-image {
+    width: 60vw;
+    position: absolute;
+    bottom: 50%;
+    height: 10em;
+    max-width: 45em;
+    border-radius: 1em 1em 0 0;
+}
+
+#li-details {
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    top: 50%;
+    width: 100%;
+    max-width: 45em;
+    padding-bottom: 2em;
+    padding-top: 4em;
+    border-radius: 0 0 1em 1em;
+}
+
+.li-text-in-main {
+    color: white;
+    margin-left: 0em;
+    padding-left: 1.5em;
+    padding-top: 1em;
+    font-size: 1em;
+}
+
+#li-username {
+    color: #696d72;
+    margin-top: 0em;
+    padding-top: 0em;
+    font-size: 1em;
+    padding-left: 1.5em;
+    margin-left: 0em;
+    font-family: 'Akatab', sans-serif;
+}
+
+#li-joined-date {
+    color: #696d72;
+}
+
+#li-follow {
+    color: #696d72;
+    display: flex;
+    width: 11.5em;
+    justify-content: space-between;
+    font-size: 0.95em;
+    font-family: 'Akatab', sans-serif;
+}
+
+#li-bio {
+    margin-top: 0em;
+    padding-top: 1em;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+}
+
+ */
