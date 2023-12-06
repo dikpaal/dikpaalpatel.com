@@ -8,7 +8,7 @@
 
 
 #li-dp-main {
-    background-image: url("images/linkedin_dp.jpg");
+    background-image: url("../images/linkedin_dp.jpg");
     background-size: cover;
     border-radius: 50%;
     width: 9em;
@@ -40,7 +40,7 @@
 #li-follow-btn:hover {
     background-color: #004182
 }
- 
+
 #li-follow-btn:active {
     background-color: #004182
 }
@@ -73,7 +73,7 @@
 }
 
 #li-banner-image {
-    background-image: url('images/ss.png');
+    background-image: url('../images/ss.png');
     background-size: cover;
     width: 100%;
     /* position: absolute;
@@ -82,7 +82,7 @@
     max-width: 45em;
     border-radius: 1em 1em 0 0;
     box-shadow: 0.5em 0.7500em 1.0000em 0 rgba(0, 0, 0, 0.25),
-   -0.5em -0.5em 0.75em 0 rgba(255, 255, 255, 0.3);
+        -0.5em -0.5em 0.75em 0 rgba(255, 255, 255, 0.3);
 
 }
 
@@ -97,7 +97,7 @@
     border-radius: 0 0 1em 1em;
     /* top: 40%; */
     box-shadow: 0.5em 0.75em 1.0000em 0 rgba(0, 0, 0, 0.25),
-   -0.5em -0.5em 0.75em 0 rgba(255, 255, 255, 0.3);
+        -0.5em -0.5em 0.75em 0 rgba(255, 255, 255, 0.3);
 
 }
 
@@ -157,15 +157,15 @@
 
     }
 
-    #pronouns{
+    #pronouns {
 
         position: absolute;
         visibility: hidden;
-       }
+    }
 
     #li-location {
         position: relative;
-        visibility: hidden;       
+        visibility: hidden;
     }
 
     #li-location::after {
@@ -183,7 +183,7 @@
         top: 0;
 
     }
-    
+
     #li-bio {
         margin-top: 0;
         padding-top: 0.15em;
