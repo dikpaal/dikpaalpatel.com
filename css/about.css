@@ -25,7 +25,6 @@ a {
     color: gray;
 }
 
-
 h2 {
     font-size: 2.5em;
 }
@@ -67,9 +66,10 @@ h2 {
 #about-me-flair {
     /* position: absolute;
     bottom: 59.5%; */
-    font-size: 2.2em;
+    font-size: 1em;
     color: gray;
     margin-left: 0.15em;
+    margin-bottom: 1.7em;
 }
 
 #about-me-text {
