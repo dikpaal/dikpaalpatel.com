@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="css/about.css" />
         <link rel="stylesheet" href="css/projects.css" />
         <link rel="stylesheet" href="css/comingsoon.css" />
+        
 
         <link
             rel="stylesheet"
@@ -31,16 +32,16 @@
     </head>
     <body>
         <section id="about-me-section" class="hidden">
-            <div id="about-me-name">👋🏻 Dikpaal here.</div>
 
-            <div id="about-me-flair">...</div>
+            <div id="about-me-name-top">Dikpaal</div>
 
-            <div id="about-me-text">
-                I am a sophomore at University of British Columbia interested in
-                full-stack development, automotive design, and creating
-                softwares. I enjoy playing badminton, bike riding, and playing
-                the trumpet.
-            </div>
+            <h2>I am a 
+                <span id="about-me-name"></span
+                ><span id="cursor">|</span>
+            </h2>
+
+            <div id="about-me-flair">>...</div>
+
             <a id="say-hi-tag" href="mailto:dikpaal@student.ubc.ca">
                 <button id="say-hi">Say Hi</button>
             </a>
@@ -128,7 +129,7 @@
             </div>
         </section>
 
-        <section id="socials-section" class="hidden">
+        <!-- <section id="socials-section" class="hidden">
             <div id="my-socials-text">✌🏻 My Socials.</div>
         </section>
 
@@ -283,11 +284,15 @@
 
         <section id="coming-soon-section" class="hidden">
             <div id="coming-soon-text">More Coming Soon... 😉</div>
-        </section>
+        </section> -->
 
         <footer>
             Built and designed by Dikpaal Patel.<br />
             All rights reserved.
         </footer>
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script type="module" src="js/app.js"></script>
     </body>
 </html>

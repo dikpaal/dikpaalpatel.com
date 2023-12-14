@@ -8,10 +8,42 @@
     /* background-color: red; */
 }
 
+h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
 #about-me-name {
     /* position: absolute;
     bottom: 65%; */
+    color: gray;
+}
+
+#cursor {
+    color: gray;
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 100%;
+    }
+
+    50% {
+        opacity: 0%;
+    }
+}
+
+#about-me-name-top {
     font-size: 3.5em;
+    position: absolute;
+    top: 3%;
+    left: 0;
+    width: 8em;
+    border-right-color: white;
+    border: none;
+    border-radius: 1em;
+    font-family: 'Roboto Mono', sans-serif;
 }
 
 #about-me-flair {
@@ -19,13 +51,15 @@
     bottom: 59.5%; */
     font-size: 2.2em;
     color: gray;
+    margin-left: 0.15em;
 }
 
 #about-me-text {
     /* position: absolute;
     top: 44%; */
+    margin-left: 0.5em;
     max-width: 45em;
-    margin-top: 1em;
+    margin-top: 0.5em;
     width: 85%;
     font-size: 0.9em;
     line-height: 1.7em;
@@ -46,8 +80,8 @@
     border-right-color: white;
     border: none;
     border-radius: 1em;
-     box-shadow: 0.5000em 0.7500em 1.000em 0 rgba(0, 0, 0, 0.25),
-     -0.5em -0.5em 0.75em 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0.5000em 0.7500em 1.000em 0 rgba(0, 0, 0, 0.25),
+        -0.5em -0.5em 0.75em 0 rgba(255, 255, 255, 0.3);
     font-family: 'Roboto Mono', sans-serif;
     display: flex;
     justify-content: center;
