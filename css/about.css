@@ -8,15 +8,33 @@
     /* background-color: red; */
 }
 
+#head-links {
+    height: 5em;
+    width: 50%;
+    display: flex;
+    position: absolute;
+    top: 3%;
+    right: 0;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 1em;
+}
+
+a {
+    color: gray;
+}
+
+
 h2 {
     font-size: 2.5em;
-    font-weight: bold;
 }
 
 #about-me-name {
     /* position: absolute;
     bottom: 65%; */
     color: gray;
+    font-weight: bold;
 }
 
 #cursor {
@@ -37,7 +55,7 @@ h2 {
 #about-me-name-top {
     font-size: 3.5em;
     position: absolute;
-    top: 3%;
+    top: 0.5%;
     left: 0;
     width: 8em;
     border-right-color: white;
@@ -68,12 +86,17 @@ h2 {
 #say-hi-tag {
     color: black;
     text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 #say-hi {
     background-color: rgb(247, 230, 209);
-    position: absolute;
-    top: 3%;
+    margin-top: 1em;
+    position: relative;
+    /* top: 10%; */
     right: 0;
     padding: 1.5em;
     width: 8em;
@@ -98,11 +121,16 @@ h2 {
     background-color: rgb(251, 217, 175);
 }
 
+@media screen and (max-width: 500px) {
+    #head-links {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 620px) {
 
     h2 {
         font-size: 1.5em;
-        font-weight: bold;
     }
 
     #about-me-flair {
@@ -111,13 +139,17 @@ h2 {
         font-size: 1.5em;
         color: gray;
     }
+
+    #about-me-name-top {
+        font-size: 2.5em;
+    }
+
 }
 
 @media screen and (max-width: 430px) {
 
     h2 {
         font-size: 1.5em;
-        font-weight: bold;
     }
 
     #about-me-flair {
@@ -134,6 +166,10 @@ h2 {
         width: 85%;
         font-size: 1.1em;
         line-height: 1.5em;
+    }
+
+    #about-me-name-top {
+        font-size: 2.5em;
     }
 }
 
@@ -141,7 +177,6 @@ h2 {
 
     h2 {
         font-size: 1.5em;
-        font-weight: bold;
     }
 
     #about-me-flair {
@@ -159,13 +194,16 @@ h2 {
         font-size: 1.1em;
         line-height: 1.5em;
     }
+
+    #about-me-name-top {
+        font-size: 2.5em;
+    }
 }
 
 @media screen and (max-width: 380px) {
 
     h2 {
         font-size: 1.5em;
-        font-weight: bold;
     }
 
     #about-me-flair {
@@ -182,5 +220,9 @@ h2 {
         width: 85%;
         font-size: 1em;
         line-height: 1.5em;
+    }
+
+    #about-me-name-top {
+        font-size: 2.5em;
     }
 }
