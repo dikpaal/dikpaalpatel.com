@@ -100,10 +100,9 @@ h2 {
 
 @media screen and (max-width: 620px) {
 
-    #about-me-name {
-        /* position: absolute;
-        bottom: 66%; */
-        font-size: 2.5em;
+    h2 {
+        font-size: 1.5em;
+        font-weight: bold;
     }
 
     #about-me-flair {
@@ -116,10 +115,9 @@ h2 {
 
 @media screen and (max-width: 430px) {
 
-    #about-me-name {
-        /* position: absolute;
-        bottom: 66%; */
+    h2 {
         font-size: 1.5em;
+        font-weight: bold;
     }
 
     #about-me-flair {
@@ -141,10 +139,9 @@ h2 {
 
 @media screen and (max-width: 400px) {
 
-    #about-me-name {
-        /* position: absolute;
-        bottom: 66%; */
+    h2 {
         font-size: 1.5em;
+        font-weight: bold;
     }
 
     #about-me-flair {
@@ -166,10 +163,9 @@ h2 {
 
 @media screen and (max-width: 380px) {
 
-    #about-me-name {
-        /* position: absolute;
-        bottom: 66%; */
+    h2 {
         font-size: 1.5em;
+        font-weight: bold;
     }
 
     #about-me-flair {
