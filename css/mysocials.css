@@ -1,14 +1,16 @@
 #socials {
     margin: 0;
     padding: 0;
-    width: 100%;
+
+    margin-top: 10vh;
+    min-height: 10vh;
+    /* background-color: red; */
     max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.8em;
-    position: absolute;
-    bottom: 0.7em;
+
 }
 
 
