@@ -2,7 +2,7 @@ function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-const phrases = ["Machine Learning", "Software", "Front-end Web"];
+const phrases = ["Machine Learning", "Software Engineering"];
 const el = document.getElementById("about-me-name")
 
 let sleepTime = 80;
